@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mdkova.card.MainActivity"
+    android:textAllCaps="true"
+    >
+
+
+
+    <ImageView
+    android:id="@+id/starrysky"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:src="@drawable/starrysky" />
+
+    <ImageView
+        android:id="@+id/udacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/udacitytrans03"
+        android:scaleType="fitEnd"
+        android:padding="16dp"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:id="@+id/follow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/udacity"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFAFA"
+        android:fontFamily="sans-serif-thin"
+        android:textAllCaps="true"
+        android:textSize="34sp"
+        android:text="follow your dream" />
+
+    <TextView
+        android:id="@+id/choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/follow"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="3dp"
+        android:textColor="#FFFAFA"
+        android:fontFamily="sans-serif-thin"
+        android:textAllCaps="true"
+        android:textSize="32sp"
+        android:text="choose your path" />
+
+    <TextView
+        android:id="@+id/millions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_above="@id/choose"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFAFA"
+        android:fontFamily="sans-serif-thin"
+        android:textAllCaps="true"
+        android:textSize="28sp"
+        android:text="millions of options" />
+
+
+
+
+
+
+</RelativeLayout>
